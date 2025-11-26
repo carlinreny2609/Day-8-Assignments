@@ -1,0 +1,43 @@
+package selenium;
+
+import java.util.Scanner;
+
+class division{
+
+static void div(int a , int b){
+
+int div =  a / b;
+
+System.out.println(+div);
+
+}
+}
+
+public class Dividebyzero{
+
+public static void main(String[]Args){
+	
+	Scanner scan = new Scanner(System.in);
+	
+	System.out.println("Enter the Input value:");
+	
+	int input = scan.nextInt();
+	
+	scan.close();
+	
+	try {
+		division.div(input, 0);
+	} catch (Exception e) {
+		// TODO: handle exception
+		
+		System.out.println("This is Exception handled");
+		
+		e.printStackTrace();
+	}
+
+	System.out.print("End of Program");
+
+
+}
+}
+
