@@ -1,0 +1,16 @@
+What is the difference between a Compiler-Error and Exception?
+
+A compiler error is caused during the compile time of the program.
+This does not allow the JVM to conert to bytecode
+
+Compiler Error is caused when there are mistakes or errors in the Syntax,Method variables,Assignment mismatches,mistakes whle passing the parameters.
+
+
+An exception is caused when unexpected  events that affect the normal flow of the program.The exceptions cannot be anticipated during the compile time.
+
+Types of exception are
+1.Nullpointer exception
+2.Arithmeticoperation exception
+3.IOexception
+4.ArrayIndexOutofBoundsexception
+5.ClassNotFoundException
