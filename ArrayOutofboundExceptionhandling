@@ -1,0 +1,19 @@
+package selenium;
+
+public class ArrayoutofBoundexceptionHandling {
+
+	public static void main(String[] Args) {
+        int value;
+		int[] A = { 1, 2, 3 };
+       try {
+    	   System.out.println(A[3]);
+       }catch(ArrayIndexOutOfBoundsException e) {
+    	   e.printStackTrace();
+    	   System.out.println("This exception is handled");
+       }
+     System.out.println("End of program");
+	}
+     
+	}
+	
+
